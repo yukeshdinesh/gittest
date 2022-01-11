@@ -1,0 +1,65 @@
+ Hotel Booking Application 
+//*[text()='Hotel Booking Application']
+//*[@id="mainCnt"]/div/div/h1
+
+
+//*[@name='userName']
+//*[@name='userPwd']
+//*[@value='Login']
+
+//*[text()=' * Please enter userName.']
+//*[text()=' * Please enter password.']
+
+//*[text()='Hotel Booking Form']
+
+
+//*[@value='Confirm Booking']
+
+driver.switchTo().alert().getText();
+driver.switchTo().alert().accept();
+
+//*[text()='Please fill the First Name']
+//*[text()='Please fill the Last Name']
+
+//*[@id='txtEmail']
+Please fill the Email
+
+//*[@id="txtPhone"]
+Please fill the Mobile No.
+Please enter valid Contact no.
+
+//*[text()='Address:']
+/html/body/div/div/form/table/tbody/tr[6]/td[2]/textarea
+
+name="city"
+Please select city
+name="state"
+Please select state
+name="persons"
+
+Please fill the Card holder name
+id="txtCardholderName"
+
+Please fill the Debit card Number
+id="txtDebit"
+
+id="txtCvv"
+Please fill the CVV
+
+Please fill expiration month
+id="txtMonth"
+
+Please fill the expiration year
+id="txtYear"
+
+
+Booking Completed!
+
+
+
+
+
+
+//*[@id='txtFirstName']
+
+
